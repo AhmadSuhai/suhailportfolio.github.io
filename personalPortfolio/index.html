@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhail Ahmad</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2621fe98f6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" width="50px" height="50px">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                    <!-- <i class="fa-solid fa-xmark"></i> -->
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                <!-- <i class="fa-solid fa-bars"></i> -->
+            </nav>
+            <div class="header-text">
+                  <p>Computer Science Student</p>
+                <h1> Hi , I'm <span>Suhail</span><br> Ahmad From India </h1></div>
+        </div>
+
+
+    </div>
+    <!-- ---------About--------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile.jpg" alt="" width="500px" height="500px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" >About Me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, numquam dolorem dicta animi amet omnis molestiae reiciendis modi voluptatum beatae vero a asperiores quaerat sequi exercitationem aperiam. Inventore rem in accusamus ex eum temporibus eos quaerat labore totam? Libero, voluptas. Quo dignissimos cupiditate praesentium autem minus dolorem eius natus at!</p>
+
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education </p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>frontEnd</span><br>Frontend Development</li>
+                            <li><span>Backend</span><br>BAckend Development</li>
+                            <li><span>App Development</span><br>Building Android apps</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>frontEnd</span><br>Frontend Development</li>
+                            <li><span>Backend</span><br>BAckend Development</li>
+                            <li><span>App Development</span><br>Building Android apps</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020 - present</span><br>B.E from SRM Easwari Engineering Collage Ramapuram Chennai</li>
+                            <li><span>2018</span><br>12th from Govt Higher Secondary School Tawkwangama Shopian</li>
+                            <li><span>2016</span><br>10th from Army GOod Will School Ahgam Shopian</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ex, deleniti quos dicta hic unde facere, sed eos culpa soluta commodi laboriosam animi amet eius accusantium earum in doloribus necessitatibus!</p>
+                    <a href="#">Learn more </a>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Backend</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque reiciendis in magni? Eum temporibus fuga voluptates harum ipsa sunt molestiae, deserunt ullam sequi aperiam rem, iure illo optio exercitationem quaerat?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Developement</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates suscipit, commodi aspernatur libero accusantium enim. Magnam possimus fugit veritatis voluptas, quas officia ipsum excepturi, vero, ipsa neque molestias earum! Distinctio.</p>
+                    <a href="#">leran more</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ----------------------------Portfolio------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg" width="400px" height="400px">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>the app connects you to the talented people around the world.
+                            Download it from play store.</p>
+                           <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                           
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg" width="300px" height="400px">
+                    <div class="layer">
+                        <h3>MUsic App</h3>
+                        <p>the app connects you to the talented people around the world.
+                            Download it from play store.</p>
+                           <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                           
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg" width="400px" height="400px">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>the app connects you to the talented people around the world.
+                            Download it from play store.</p>
+                           <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                           
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- ------------------contact-------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+
+                    <p> <i class="fas fa-paper-plane"></i> Suhailahdar68@gamil.com</p><br>
+                    <p><i class="fas fa-phone-square-alt"></i> 8493041345</p>
+
+                    <div class="social-icons">
+                        <a href=#><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-quora"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                
+                <div class="contact-right"></div>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="your MEssage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">hello</span>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @Suhail Made with <i class="fa-solid fa-heart"></i> by suhail Ahmad</p>
+        </div>
+    </div>
+
+    <script>
+
+        // not working try to find out why
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classlist.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right ="0";
+        }
+        function closemenu(){
+            sidemeu.style.right ="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyc3tbev2x3vhaqBh7Aa_WL7RWQlrZr5U5gsOzA5dtD7Xy_lPWdA7bHa3o-HrdX8s54/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                 msg.innerHTML ="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },5000)
+                form.reset()
+            })
+            
+            .catch(error => console.error('Error!', error.message))
+            
+        })
+      </script>
+</body>
+</html>
